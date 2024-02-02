@@ -1,0 +1,14 @@
+
+CREATE TABLE STUDENTS (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    address TEXT NOT NULL
+);
+
+
+INSERT INTO STUDENTS VALUES (1, 'Миша', 19, 'Красноярск');
+INSERT INTO STUDENTS VALUES (2, 'Олег', 25, 'Новосиб');
+INSERT INTO STUDENTS VALUES (3, 'Серега', 20, 'Омск');
+INSERT INTO STUDENTS VALUES (4, 'Катя', 30, 'Омск');
+INSERT INTO STUDENTS VALUES (5, 'Жека', 36, 'Омск');
